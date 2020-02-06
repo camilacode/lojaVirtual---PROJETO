@@ -1,0 +1,204 @@
+
+.container{
+    width: 100%;
+
+}
+
+#texto2{
+   
+    text-decoration-color: grey;
+    font-size: 140%;
+
+}
+#textodiv{
+    text-align: center;
+    font-style: normal;
+    font-family: 'Roboto', sans-serif;
+    font-size: 200%;
+
+}
+/*para telas menores que 769px*/
+.bloco{
+    float: left; /*para divs se alinharem automaticamente */
+    width: 96%;  /*uma coluna para desktop */
+    height:300px;
+    margin-left: 2%;
+background: #666;
+}
+/*para telas desktops e com maiores resoluções */
+@media only screen and (min-width: 769px){
+.bloco{
+    float: left;
+    width: 30%; /*3 coluna para desktop */
+    margin-left: 0%;
+    height: 300px;
+    margin-right: 3%;
+    background: lightpink;
+    margin-bottom: 20px;
+   }
+
+.bloco{
+    float: left;
+    width: 30%; /*3 coluna para desktop */
+    margin-left: 0%;
+    height: 300px;
+    margin-right: 3%;
+    background-color: white;
+    margin-bottom: 20px;
+   }
+
+
+   .bloco2{
+    float: left;
+    width: 30%; /*3 coluna para desktop */
+    margin-left: 0%;
+    height: 300px;
+    margin-right: 3%;
+    background: lightpink;
+  margin-bottom: 20px;
+  margin-left: 130px;
+   }
+
+   .bloco1{
+    float: left;
+    width: 30%; /*3 coluna para desktop */
+    margin-left: 0%;
+    height: 300px;
+    margin-right: 3%;
+    background: lightpink;
+    margin-bottom: 20px;
+   }
+
+   
+   .bloco3{
+    float: left;
+    width: 30%; /*3 coluna para desktop */
+    margin-left: 0%;
+    height: 300px;
+    margin-right: 3%;
+    background: lightpink;
+    margin-bottom: 20px;
+    margin-left: 120px;
+   }
+
+
+}
+
+
+
+.bg-primary {
+    background-color: blueviolet !important;
+}
+
+header,#about,.text-white {
+    color: black !important;
+}
+
+.footer,.text-white {
+    background-color: green;
+    color: #fff;
+    
+    color: black !important;
+}
+
+.btn-outline-light {
+    color: black;
+    background-color: transparent;
+    background-image: black;
+    border-color: black;
+}
+
+.bg-primary,#about {
+    background-color: green !important;
+}
+
+
+a.bg-primary,#Ofertas {
+    background-color: darkgray !important;
+}
+
+.footer, .text-white {
+    background-color: green;
+    color: #fff !important;
+}
+
+hr.star-light:after {
+  color: #fff;
+  background-color: greenyellow!important;
+}
+
+a {
+    color: white !important
+}
+
+
+
+
+
+
+.bg-secondary {
+    background-color: gray !important;
+}
+
+.example {
+  box-sizing: border-box;
+}
+
+
+/*Botão de pesquisa*/
+
+
+/* Estilize o campo de pesquisa */
+form.example input[type=text] {
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid black;
+  float: left;
+  width: 80%;
+  background: #f1f1f1;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;  
+}
+
+/* Estilize o botao de envio */
+form.example button {
+  float: left;
+  width: 20%;
+  padding: 10px;
+  background: red;
+  color: white;
+  font-size: 17px;
+  border: 1px solid black;
+  border-left: none; /*Evitar fronteiras duplas */
+  cursor: pointer;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+ 
+}
+
+form.example button:hover {
+  background: #cc0000;
+}
+
+/* Flutuadores claros*/
+form.example::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+.py-3 px-0{
+  width: 100px;
+  float: righ  
+}
+
+.mySlides{
+    width="100%";
+    height="230%";
+}
+
+
+.mb-5, ul,li{
+    position: left;
+}
